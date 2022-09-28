@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/400.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+ 
+  
+
+  .navbar {
+    background-color: rgba(74, 116, 102, 0.683);
+    background: transparent;
+    // position: absolute;
+
+    .items {
+      display: flex;
+      justify-content: space-evenly;
+      list-style-type: none;
+      
+      .item{
+        margin: 15px;
+        .link-item{
+          text-decoration: none;
+          font-size: 25px;
+          padding: 0px 10px;
+          color: rgba(5, 93, 24, 0.502);
+          font-weight: 600;
+          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+          
+        }
+        .link-item:focus{
+          color: rgba(25, 108, 44, 0.973);
+          transition: .3s;
+          
+        }
+      }
+    }
+  }
+
+.components {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+
+}
+}
+
+.home {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.388);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  h1{
+    color: rgba(4, 52, 14, 0.614);
+  }
+
+  h1:hover{
+    transform: rotateY(180deg);
+    color: aquamarine;
+    transition:3s
+  }
+}
+
+
+

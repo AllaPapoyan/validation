@@ -1,0 +1,43 @@
+.section-one{
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.388);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    .forma{
+        // width: 50%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        .singup-form{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column; 
+            align-items: center;
+        .singup-inp{
+            padding: 8px 14px;
+           border: 1px solid #000;
+           border-radius: 3px;
+           background-color: rgba(0, 0, 0, 0.683);
+           color: aliceblue;
+        }
+        .btn{
+            padding: 8px 20px;
+            background-color: rgba(25, 50, 35, 0.74);
+            font-size: 22px;
+            border: none;
+            color: beige;         
+            border-radius: 5px;
+            
+            
+
+        }
+        .sing-span{
+            height: 5vh;
+            color: crimson;
+        }
+        }
+
+    }
+}
